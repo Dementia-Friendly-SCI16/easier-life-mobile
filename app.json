@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "easier-life",
+    "slug": "easier-life",
+    "backgroundColor": "#ffffff",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sci16.easierlife",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBQ536RFcAGC_4uE8mSrfht7IMi1H03a9w"  
+      }
+    }, 
+    "android": {
+      "package": "com.sci16.easierlife",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCRn3Tk_DiPalxN_rmmd1lrn25YtEkxOcY"
+        }
+      }
+    }
+  }
+}
